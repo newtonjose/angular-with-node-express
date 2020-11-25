@@ -32,9 +32,9 @@
 
 2 - Modelagem do banco de dados
 
-> - [DER](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/der.sql)
+> - [DER](https://github.com/newtonjose/angular-with-node-express/blob/master/docs/der.png)
 
-> - [DDL](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/ddl.sql)
+> - [DDL](https://github.com/newtonjose/angular-with-node-express/blob/master/docs/ddl.sql)
 
 3 - Aplicação backend implementando uma simples API REST
 
