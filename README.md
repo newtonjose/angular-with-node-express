@@ -29,3 +29,7 @@
 3. Boas práticas de versionamento.
 
 ### Resultados
+
+1 - Modelagem do banco de dados
+a) [DER](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/docs/der.sql)
+b) [DDL](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/docs/ddl.sql)
