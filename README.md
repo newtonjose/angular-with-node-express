@@ -30,6 +30,12 @@
 
 ### Resultados
 
-1 - Modelagem do banco de dados
-a) [DER](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/docs/der.sql)
-b) [DDL](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/docs/ddl.sql)
+2 - Modelagem do banco de dados
+
+> - [DER](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/docs/der.sql)
+
+> - [DDL](https://github.com/newtonjose/angular-with-node-express/blob/feature/docs/docs/ddl.sql)
+
+3 - Aplicação backend implementando uma simples API REST
+
+> - [README.md](https://github.com/newtonjose/angular-with-node-express/blob/feature/backend/README.md)
