@@ -1,9 +1,10 @@
 import express from "express";
-import { login } from "./routes/index.mjs";
+import { login } from "./routes";
 
 const PORT = 4001;
 
 const app = express();
+app.use(express.json());
 
 app.get("/", (_, res) => {
   res.status(200).send("Simple Test");

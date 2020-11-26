@@ -1,3 +1,6 @@
 
 # Dependências NodeJS
 node_modules/
+
+# Development files
+backend/database.sqlite3

@@ -14,18 +14,20 @@
   "bugs": {
     "url": "https://github.com/newtonjose/angular-with-node-express/issues"
   },
-  "type": "module",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src/server.js \"",
     "release": "yarn clean && yarn build",
     "clean": "rm -rf dist && mkdir dist",
     "build": "babel src --out-dir dist",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "migrate": "npx sequelize-cli db:migrate",
+    "seed": "npx sequelize-cli db:seed:all",
+    "setup": "npm run migrate && npm run seed"
   },
   "dependencies": {
     "express": "^4.17.1",
     "sequelize": "^6.3.5",
-    "sqlite3": "^4.0.1"
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
