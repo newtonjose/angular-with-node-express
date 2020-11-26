@@ -12,11 +12,11 @@ export default async (req, res) => {
       return res.status(400).json({ message: "User not found" });
     }
 
-    if (passwd !== user.dataValues.password) {
+    if (password !== user.dataValues.password) {
       return res.status(400).json({ message: "Password invalid" });
     }
 
-    return res.sendStatus(200);
+    return res.status(200).json();
   } catch (error) {
     res.sendStatus(500);
   }
