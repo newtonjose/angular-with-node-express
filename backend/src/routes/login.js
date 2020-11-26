@@ -2,7 +2,7 @@ import { models } from "../db";
 
 export default async (req, res) => {
   try {
-    const { email, passwd } = req.body;
+    const { email, password } = req.body;
 
     const user = await models.User.findOne({
       where: { email },
@@ -12,7 +12,7 @@ export default async (req, res) => {
       return res.status(400).json({ message: "User not found" });
     }
 
-    if (passwd !== user.dataValues.passwd) {
+    if (passwd !== user.dataValues.password) {
       return res.status(400).json({ message: "Password invalid" });
     }
 

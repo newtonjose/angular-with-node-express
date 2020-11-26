@@ -7,7 +7,7 @@ module.exports = {
       [
         {
           email: "email@ligaeducacional.com.br",
-          passwd: "desafiofullstack",
+          password: "desafiofullstack",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
